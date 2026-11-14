@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Desktop mode starts the WireGuard tools (wg-quick) with an admin prompt.
+	     A sandboxed app may not do that. A Mac App Store build would use a
+	     Network Extension instead (see README.md, "Ready for publishing"). -->
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+</dict>
+</plist>
